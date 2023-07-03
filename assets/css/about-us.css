@@ -1,0 +1,25 @@
+.main-subtitle {
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+.outer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+@media (min-width: 320px) and (max-width: 435px) {
+    .intro--banner h1 {
+        font-size: 28px;
+    }
+    .intro--banner::before {
+        display: none;
+    }
+    .intro--banner::after {
+        display: none;
+    }
+    .intro--options {
+        display: none;
+    }
+    .intro {
+        height: 70%;
+    }
+}
